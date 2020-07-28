@@ -1,6 +1,9 @@
 # linux-doc
 Documents about learning linux
 
+## cron
+* [crontab guru](https://crontab.guru/)
+
 ## CentOS
 * systemctl
   * enable service
@@ -26,4 +29,9 @@ Documents about learning linux
     ```shell script
     firewall-cmd --zone=public --permanent --add-service=postgresql
     firewall-cmd --reload
+    ```
+* grep
+  * count occurrence
+    ```shell script
+    grep -i exception * | wc -l
     ```
